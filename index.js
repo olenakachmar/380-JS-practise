@@ -29,9 +29,7 @@ const a = parseFloat(prompt('Enter A', 1));
 const b = parseFloat(prompt('Enter B', 5));
 const c = parseFloat(prompt('Enter C', 2));
 
-if(a !== Number & b !== Number & c !== Number){
-    alert('Please, enter number')
-}else if(a===0 & b===0 & c===0){
+if(a===0 & b===0 & c===0){
     alert('Please, don\'t put everywhere 0')
 } else if (a===0){
     alert('Not a quadratic equation')
